@@ -1,8 +1,9 @@
 import constants from "../constants";
 
-export const SignIn = () => {
+export const SignIn = (userId) => {
     return {
-        type: constants.GOOGLE_AUTH.SIGN_IN
+        type: constants.GOOGLE_AUTH.SIGN_IN,
+        payload: userId
     }
 }
 
