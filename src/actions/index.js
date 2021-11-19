@@ -1,11 +1,13 @@
+import constants from "../constants";
+
 export const SignIn = () => {
     return {
-        type: "SIGN_IN"
+        type: constants.GOOGLE_AUTH.SIGN_IN
     }
 }
 
 export const SignOut = () => {
     return {
-        type: "SIGN_OUT"
+        type: constants.GOOGLE_AUTH.SIGN_OUT
     }
 }
