@@ -1,3 +1,5 @@
+import React from "react"
+
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import "./header.scss"
 
